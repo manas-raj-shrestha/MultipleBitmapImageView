@@ -5,9 +5,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.leapfrog.multipleimageimageview.MultipleImageView
-        android:id="@+id/multiple_image_view"
-        android:layout_width="300dp"
-        android:layout_height="300dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_glide_test"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<com.leapfrog.multipleimageimageview.MultipleImageView-->
+    <!--android:id="@+id/multiple_image_view"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="300dp" />-->
 
 </RelativeLayout>
